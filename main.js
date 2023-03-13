@@ -1,11 +1,12 @@
 document.getElementById('time').innerHTML = new Date().toLocaleString()
+document.getElementsByTagName('h1')[0].style.fontSize = '4vw'
 
 function pink() {
   document.body.style.backgroundColor = 'pink'
 }
 
-function lightblue() {
-  document.body.style.backgroundColor = 'lightblue'
+function mint() {
+  document.body.style.backgroundColor = '#96e4df'
 }
 function yellow() {
   document.body.style.backgroundColor = 'yellow'
