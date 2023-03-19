@@ -6,13 +6,13 @@ function pink() {
 }
 
 function mint() {
-  document.body.style.backgroundColor = '#96e4df'
+  document.body.style.backgroundColor = '#8bf0d3'
 }
 function yellow() {
-  document.body.style.backgroundColor = 'yellow'
+  document.body.style.backgroundColor = '#ffff1d'
 }
 function reset() {
-  document.body.style.backgroundColor = 'linen'
+  document.body.style.backgroundColor = '#c6d6f7'
 }
 
 function showhtml() {

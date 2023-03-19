@@ -8,9 +8,14 @@
                 content="width=device-width, initial-scale=1.0"
               />
               <title>WEB DEMO</title>
+              <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
               <link rel="stylesheet" href="style.css" />
+              
             </head>
             <body>
+              
               <nav class="navbar">
                 <div class="container">
                   <div class="logo">🐋WebDemo🐋</div>
@@ -25,7 +30,7 @@
                       <a href="contact.html">Contact</a>
                     </li>
                     <li>
-                      <a href="project.html">Project</a>
+                      <a href="project.html">&#128193;Project</a>
                     </li>
                   </ul>
                 </div>
@@ -47,9 +52,9 @@
                     <a href="https://www.w3schools.com/html/default.asp"
                       >HTML5</a
                     >
-                    |
+                    
                     <a href="https://www.w3schools.com/css/default.asp">CSS3</a>
-                    |
+                    
                     <a href="https://www.w3schools.com/js/default.asp"
                       >Javascript</a
                     >
@@ -62,18 +67,18 @@
                     <button onclick="pink()" class="custom-btn btn-11">Pink</button>                 
                     <button onclick="mint()" class="custom-btn btn-13">Mint</button>                 
                     <button onclick="yellow()" class="custom-btn btn-14">Yellow</button>
-                    <button onclick="reset()">Reset</button>
+                    <button onclick="reset()" class="custom-btn btn-12"><span>Click!</span><span>Reset</span></button>
                   </p>
                   <hr />
                   <p>
                     배워봅시다:
-                    <button onmouseover="showhtml()" onmouseout="hide()">
+                    <button class="custom-btn btn-2" onmouseover="showhtml()" onmouseout="hide()">
                       HTML5
                     </button>
-                    <button onmouseover="showcss()" onmouseout="hide()">
+                    <button class="custom-btn btn-2" onmouseover="showcss()" onmouseout="hide()">
                       CSS3
                     </button>
-                    <button onmouseover="showjs()" onmouseout="hide()">
+                    <button class="custom-btn btn-2" onmouseover="showjs()" onmouseout="hide()">
                       Javascript
                     </button>
                   </p>
@@ -93,7 +98,8 @@
 
       </div>
     </section>
-
+    <footer class="footer">&copy 2023 중부대학교 강채린</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
